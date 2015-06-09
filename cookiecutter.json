@@ -1,11 +1,10 @@
 {
-	"full_name": "Taylor \"Nekroze\" Lawson",
-	"email": "nekroze@eturnilnetwork.com",
-	"github_username": "Nekroze",
-	"project_name": "A Lot of Effort",
-	"repo_name": "alotofeffort",
-	"project_short_description": "Deploy static HTML sites to S3 with the simple 'alotofeffort' command.",
-	"release_date": "2013-07-10",
-	"year": "2013",
-	"version": "0.1.0"
+    "project_name": "My Python App",
+    "project_short_description": "A Python app."
+    "full_name": "Christian Long",
+    "email": "christianzlong@gmail.com",
+    "github_username": "christianmlong",
+    "repo_name": "{{ cookiecutter.project_name|lower|replace(' ', '-') }}",
+    "pkg_name": "{{ cookiecutter.repo_name|replace('-', '') }}"
+    "app_name": "{{ cookiecutter.pkg_name }}"
 }
